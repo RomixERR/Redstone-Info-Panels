@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "RDP",
+    "SES"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "redstoneinfopanels:redstone_info_panel",
+    "count": 1
+  }
+}

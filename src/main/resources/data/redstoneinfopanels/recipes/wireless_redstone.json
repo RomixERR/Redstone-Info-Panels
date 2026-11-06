@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "RQS",
+    "SES"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "redstoneinfopanels:wireless_redstone",
+    "count": 1
+  }
+}

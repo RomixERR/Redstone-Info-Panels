@@ -1,0 +1,23 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "redstoneinfopanels:block/redstone_info_panel_yellow",
+		"particle": "redstoneinfopanels:block/redstone_info_panel_yellow"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 14],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 14], "texture": "#0"},
+				"east": {"uv": [0, 16, 8, 14.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 14], "texture": "#0"},
+				"west": {"uv": [8, 14.5, 0, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [8, 14.5, 0, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [16, 16, 8, 14.5], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

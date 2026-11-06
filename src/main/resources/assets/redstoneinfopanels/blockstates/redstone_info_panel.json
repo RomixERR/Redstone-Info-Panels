@@ -1,0 +1,101 @@
+{
+  "variants": {
+    "facing=north,face_color=0": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_white"
+    },
+    "facing=north,face_color=1": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_green"
+    },
+    "facing=north,face_color=2": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_yellow"
+    },
+    "facing=north,face_color=3": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_red"
+    },
+
+    "facing=south,face_color=0": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_white",
+      "y": 180
+    },
+    "facing=south,face_color=1": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_green",
+      "y": 180
+    },
+    "facing=south,face_color=2": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_yellow",
+      "y": 180
+    },
+    "facing=south,face_color=3": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_red",
+      "y": 180
+    },
+
+    "facing=east,face_color=0": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_white",
+      "y": 90
+    },
+    "facing=east,face_color=1": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_green",
+      "y": 90
+    },
+    "facing=east,face_color=2": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_yellow",
+      "y": 90
+    },
+    "facing=east,face_color=3": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_red",
+      "y": 90
+    },
+
+    "facing=west,face_color=0": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_white",
+      "y": 270
+    },
+    "facing=west,face_color=1": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_green",
+      "y": 270
+    },
+    "facing=west,face_color=2": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_yellow",
+      "y": 270
+    },
+    "facing=west,face_color=3": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_red",
+      "y": 270
+    },
+
+    "facing=up,face_color=0": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_white",
+      "x": 270
+    },
+    "facing=up,face_color=1": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_green",
+      "x": 270
+    },
+    "facing=up,face_color=2": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_yellow",
+      "x": 270
+    },
+    "facing=up,face_color=3": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_red",
+      "x": 270
+    },
+
+    "facing=down,face_color=0": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_white",
+      "x": 90
+    },
+    "facing=down,face_color=1": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_green",
+      "x": 90
+    },
+    "facing=down,face_color=2": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_yellow",
+      "x": 90
+    },
+    "facing=down,face_color=3": {
+      "model": "redstoneinfopanels:block/redstone_info_panel_red",
+      "x": 90
+    }
+  }
+}

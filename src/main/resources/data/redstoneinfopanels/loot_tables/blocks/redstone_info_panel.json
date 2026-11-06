@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "redstoneinfopanels:redstone_info_panel",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                { "source": "Title", "target": "BlockEntityTag.Title", "op": "replace" },
+                { "source": "Text", "target": "BlockEntityTag.Text", "op": "replace" },
+                { "source": "LastSignal", "target": "BlockEntityTag.LastSignal", "op": "replace" },
+                { "source": "SourcePos", "target": "BlockEntityTag.SourcePos", "op": "replace" },
+                { "source": "Entries", "target": "BlockEntityTag.Entries", "op": "replace" }
+              ]
+            },
+            {
+              "function": "minecraft:copy_state",
+              "block": "redstoneinfopanels:redstone_info_panel",
+              "properties": ["face_color"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

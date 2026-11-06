@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "redstoneinfopanels:redstone_info_panel"
+    }
+  },
+  "result": {
+    "item": "redstoneinfopanels:redstone_info_panel",
+    "count": 1
+  }
+}

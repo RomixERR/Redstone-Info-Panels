@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "redstoneinfopanels:wireless_redstone",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                { "source": "SourcePos", "target": "BlockEntityTag.SourcePos", "op": "replace" },
+                { "source": "Signal", "target": "BlockEntityTag.Signal", "op": "replace" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
